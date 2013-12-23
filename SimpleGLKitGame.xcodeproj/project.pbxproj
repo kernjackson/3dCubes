@@ -19,6 +19,20 @@
 		4850157E1868E0170008AE79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485015661868E0170008AE79 /* UIKit.framework */; };
 		485015861868E0170008AE79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 485015841868E0170008AE79 /* InfoPlist.strings */; };
 		485015881868E0170008AE79 /* SimpleGLKitGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 485015871868E0170008AE79 /* SimpleGLKitGameTests.m */; };
+		485015921868E0440008AE79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485015911868E0440008AE79 /* QuartzCore.framework */; };
+		485015941868E04B0008AE79 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485015931868E04B0008AE79 /* OpenGLES.framework */; };
+		485015961868E0500008AE79 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485015951868E0500008AE79 /* GLKit.framework */; };
+		485015981868E0710008AE79 /* iPhoneMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485015971868E0710008AE79 /* iPhoneMainStoryboard.storyboard */; };
+		4850159E1868E15C0008AE79 /* SGGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4850159D1868E15C0008AE79 /* SGGViewController.m */; };
+		48CB81921868E2B40006A8DF /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 48CB818B1868E2B40006A8DF /* background-music-aac.caf */; };
+		48CB81931868E2B40006A8DF /* pew-pew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48CB818C1868E2B40006A8DF /* pew-pew.wav */; };
+		48CB81941868E2B40006A8DF /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 48CB818D1868E2B40006A8DF /* Player.png */; };
+		48CB81951868E2B40006A8DF /* Projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 48CB818E1868E2B40006A8DF /* Projectile.png */; };
+		48CB81961868E2B40006A8DF /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 48CB818F1868E2B40006A8DF /* Target.png */; };
+		48CB81971868E2B40006A8DF /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = 48CB81901868E2B40006A8DF /* YouLose.png */; };
+		48CB81981868E2B40006A8DF /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 48CB81911868E2B40006A8DF /* YouWin.png */; };
+		48CB819C1868E2E00006A8DF /* SGGSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB819B1868E2E00006A8DF /* SGGSprite.m */; };
+		48CB819F1868E81A0006A8DF /* ColorfulCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB819E1868E81A0006A8DF /* ColorfulCube.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,23 @@
 		485015831868E0170008AE79 /* SimpleGLKitGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleGLKitGameTests-Info.plist"; sourceTree = "<group>"; };
 		485015851868E0170008AE79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		485015871868E0170008AE79 /* SimpleGLKitGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGLKitGameTests.m; sourceTree = "<group>"; };
+		485015911868E0440008AE79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		485015931868E04B0008AE79 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		485015951868E0500008AE79 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		485015971868E0710008AE79 /* iPhoneMainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneMainStoryboard.storyboard; sourceTree = "<group>"; };
+		4850159C1868E15C0008AE79 /* SGGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGViewController.h; sourceTree = "<group>"; };
+		4850159D1868E15C0008AE79 /* SGGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGViewController.m; sourceTree = "<group>"; };
+		48CB818B1868E2B40006A8DF /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		48CB818C1868E2B40006A8DF /* pew-pew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pew-pew.wav"; sourceTree = "<group>"; };
+		48CB818D1868E2B40006A8DF /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
+		48CB818E1868E2B40006A8DF /* Projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Projectile.png; sourceTree = "<group>"; };
+		48CB818F1868E2B40006A8DF /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Target.png; sourceTree = "<group>"; };
+		48CB81901868E2B40006A8DF /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouLose.png; sourceTree = "<group>"; };
+		48CB81911868E2B40006A8DF /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWin.png; sourceTree = "<group>"; };
+		48CB819A1868E2E00006A8DF /* SGGSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGSprite.h; sourceTree = "<group>"; };
+		48CB819B1868E2E00006A8DF /* SGGSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGSprite.m; sourceTree = "<group>"; };
+		48CB819D1868E81A0006A8DF /* ColorfulCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulCube.h; sourceTree = "<group>"; };
+		48CB819E1868E81A0006A8DF /* ColorfulCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulCube.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485015961868E0500008AE79 /* GLKit.framework in Frameworks */,
+				485015941868E04B0008AE79 /* OpenGLES.framework in Frameworks */,
+				485015921868E0440008AE79 /* QuartzCore.framework in Frameworks */,
 				485015651868E0170008AE79 /* CoreGraphics.framework in Frameworks */,
 				485015671868E0170008AE79 /* UIKit.framework in Frameworks */,
 				485015631868E0170008AE79 /* Foundation.framework in Frameworks */,
@@ -77,6 +111,10 @@
 		485015561868E0170008AE79 = {
 			isa = PBXGroup;
 			children = (
+				48CB81991868E2B80006A8DF /* Resources */,
+				4850159C1868E15C0008AE79 /* SGGViewController.h */,
+				4850159D1868E15C0008AE79 /* SGGViewController.m */,
+				485015971868E0710008AE79 /* iPhoneMainStoryboard.storyboard */,
 				485015681868E0170008AE79 /* SimpleGLKitGame */,
 				485015811868E0170008AE79 /* SimpleGLKitGameTests */,
 				485015611868E0170008AE79 /* Frameworks */,
@@ -96,6 +134,9 @@
 		485015611868E0170008AE79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				485015951868E0500008AE79 /* GLKit.framework */,
+				485015931868E04B0008AE79 /* OpenGLES.framework */,
+				485015911868E0440008AE79 /* QuartzCore.framework */,
 				485015621868E0170008AE79 /* Foundation.framework */,
 				485015641868E0170008AE79 /* CoreGraphics.framework */,
 				485015661868E0170008AE79 /* UIKit.framework */,
@@ -142,6 +183,24 @@
 				485015841868E0170008AE79 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48CB81991868E2B80006A8DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48CB818B1868E2B40006A8DF /* background-music-aac.caf */,
+				48CB818C1868E2B40006A8DF /* pew-pew.wav */,
+				48CB818D1868E2B40006A8DF /* Player.png */,
+				48CB818E1868E2B40006A8DF /* Projectile.png */,
+				48CB818F1868E2B40006A8DF /* Target.png */,
+				48CB81901868E2B40006A8DF /* YouLose.png */,
+				48CB81911868E2B40006A8DF /* YouWin.png */,
+				48CB819A1868E2E00006A8DF /* SGGSprite.h */,
+				48CB819B1868E2E00006A8DF /* SGGSprite.m */,
+				48CB819D1868E81A0006A8DF /* ColorfulCube.h */,
+				48CB819E1868E81A0006A8DF /* ColorfulCube.m */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +279,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48CB81921868E2B40006A8DF /* background-music-aac.caf in Resources */,
 				4850156D1868E0170008AE79 /* InfoPlist.strings in Resources */,
+				48CB81981868E2B40006A8DF /* YouWin.png in Resources */,
+				48CB81941868E2B40006A8DF /* Player.png in Resources */,
+				48CB81951868E2B40006A8DF /* Projectile.png in Resources */,
+				48CB81961868E2B40006A8DF /* Target.png in Resources */,
+				48CB81971868E2B40006A8DF /* YouLose.png in Resources */,
+				485015981868E0710008AE79 /* iPhoneMainStoryboard.storyboard in Resources */,
+				48CB81931868E2B40006A8DF /* pew-pew.wav in Resources */,
 				485015751868E0170008AE79 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				485015731868E0170008AE79 /* SGGAppDelegate.m in Sources */,
+				4850159E1868E15C0008AE79 /* SGGViewController.m in Sources */,
+				48CB819C1868E2E00006A8DF /* SGGSprite.m in Sources */,
+				48CB819F1868E81A0006A8DF /* ColorfulCube.m in Sources */,
 				4850156F1868E0170008AE79 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +514,7 @@
 				4850158D1868E0170008AE79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4850158E1868E0170008AE79 /* Build configuration list for PBXNativeTarget "SimpleGLKitGameTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +523,7 @@
 				485015901868E0170008AE79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
